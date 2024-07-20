@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cancer</class>
+ <widget class="QMainWindow" name="cancer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1368</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cancer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images (1).png</normaloff>images (1).png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255,192,203);</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="titre" native="true">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>1268</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/er.png);
+border-radius: 15px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>120</y>
+      <width>361</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+
+border-radius: 15px;</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>470</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color: rgb(255,192,203);
+    border: 2px solid #FFFFFF; 
+    border-radius: 10px; 
+    font-family: Arial;
+    font-size:15px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>TEST</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>510</y>
+       <width>341</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'URW Bookman';&quot;&gt;this result remains an expectaion,so please see your doctor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="result" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>371</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/newPrefix/result.png);</string>
+     </property>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 75 25pt &quot;Liberation Serif&quot;;
+
+background-color: rgba(191, 64, 64, 0);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>RESULT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTextEdit" name="score">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>200</y>
+       <width>160</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/newPrefix/res.png);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_19">
+     <property name="geometry">
+      <rect>
+       <x>92</x>
+       <y>390</y>
+       <width>181</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>130</y>
+       <width>160</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/newPrefix/scor.png);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_20">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>250</y>
+       <width>113</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>459</x>
+      <y>391</y>
+      <width>236</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Fira Code</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="fractal_dimension_mean">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>fractal_dimension_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="radius_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>radius_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="texture_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>texture_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="perimeter_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>perimeter_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="area_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>area_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="smoothness_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>smoothness_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="compactness_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>compactness_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="concavity_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>concavity_se</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="concave_points_se">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>concave_points_se</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>391</y>
+      <width>205</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Fira Code</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>radius_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>texture_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>perimeter_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>area_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="smoothness_mean">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>smoothness_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="compactness_mean">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>compactness_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="concavity_mean">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>concavity_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="concave_points_mean">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>concave_points_mean</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="symmetry_mean">
+       <property name="font">
+        <font>
+         <family>Fira Code</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>symmetry_mean</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>190</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="Nom">
+       <property name="styleSheet">
+        <string notr="true">font: 75 13pt &quot;C059&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="Prnom">
+       <property name="styleSheet">
+        <string notr="true">font: 75 13pt &quot;C059&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>First name</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>390</y>
+      <width>146</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_8">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_9">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>390</y>
+      <width>146</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_10">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_13">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_14">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_15">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_16">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_17">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_18">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: rgb(255,192,203);
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>180</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_23">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_24">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>443</x>
+      <y>190</y>
+      <width>81</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <widget class="QLabel" name="nid">
+       <property name="styleSheet">
+        <string notr="true">font: 75 13pt &quot;C059&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>N° id</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="age">
+       <property name="styleSheet">
+        <string notr="true">font: 75 13pt &quot;C059&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>190</y>
+      <width>141</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_8">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_21">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_22">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    border: 2px solid #666666; 
+    border-radius: 10px;  
+    font-family: Arial;
+    font-size:15px;
+   color: #19060f;
+
+}
+QLineEdit:focus{
+     border: 2px solid #FF439F; 
+    background: #FFFFFF;
+    
+}
+QLineEdit:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+    
+}</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>310</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/info.png);</string>
+    </property>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(191, 64, 64, 0);
+font: 63 italic 14pt &quot;URW Bookman&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Values for the test procedure</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>100</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/info.png);</string>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>211</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(191, 64, 64, 0);
+font: 63 italic 14pt &quot;URW Bookman&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Patient information's</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="clear">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>710</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background: #FFFFFF;
+   background-color:#FFFFFF;
+    border: 2px solid #FFFFFF; 
+    border-radius: 10px; 
+    font-family: Arial;
+    font-size:15px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #000000; 
+     background: #FFFFFF;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="aze.qrc"/>
+ </resources>
+ <connections/>
+</ui>
